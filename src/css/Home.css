@@ -1,0 +1,11 @@
+.container {
+    position: relative;
+}
+
+.titulo {
+    position: absolute;
+    color: red;
+    bottom: 5%;
+    font-size: 40px;
+    left: 40%;
+}

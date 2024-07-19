@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Formula1-Regular";
+    src: url('../assets/fonts/Formula1-Regular_web_0.ttf');
+}
+
+:root {
+    background-color: #15151E;
+    font-family: "Formula1-Regular";
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+}
