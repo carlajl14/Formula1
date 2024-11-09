@@ -1,6 +1,5 @@
 import React from 'react'
 import useDrivers from '../hooks/driverHook';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../css/Pilotos.css'
 
@@ -25,7 +24,7 @@ const Pilotos = () => {
         <Card.Text>
           Equipo: {driver.team_name}
         </Card.Text>
-        <Button variant="primary">Más información</Button>
+        <Card.Link style={{color:'black', textDecoration:'none'}} href="#">Más información</Card.Link>
       </Card.Body>
     </Card>)
             })

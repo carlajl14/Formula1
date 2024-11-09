@@ -1,0 +1,15 @@
+/* .imagen {
+    width: 100%;
+} */
+
+.content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjet {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+}
