@@ -1,0 +1,18 @@
+.piloto:hover {
+    background-color: gray;
+    padding: 5px;
+    animation: tarjet 3s;
+    border-radius: 5px;
+}
+
+@keyframes tarjet {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

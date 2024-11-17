@@ -1,8 +1,8 @@
 import React from 'react'
-import useCircuits from '../hooks/circuitHook';
+import useCircuits from '../../hooks/circuitHook.js';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
-import Loader from '../components/Loader.jsx';
+import Loader from '../Loader.jsx';
 
 const Circuitos = () => {
 

@@ -1,7 +1,8 @@
 import React from 'react'
-import useDrivers from '../hooks/driverHook';
+import useDrivers from '../../hooks/driverHook';
 import Card from 'react-bootstrap/Card';
-import '../css/Pilotos.css'
+import '../../css/Pilotos.css'
+import { Link } from 'react-router-dom';
 
 const Pilotos = () => {
 
@@ -24,7 +25,7 @@ const Pilotos = () => {
         <Card.Text>
           Equipo: {driver.team_name}
         </Card.Text>
-        <Card.Link style={{color:'black', textDecoration:'none'}} href="#">Más información</Card.Link>
+        <Link style={{color:'black', textDecoration:'none'}} to={"/piloto/" + driver.driver_number}>Más información</Link>
       </Card.Body>
     </Card>)
             })
